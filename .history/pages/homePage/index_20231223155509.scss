@@ -2,9 +2,8 @@
 .container {
   min-height: 100vh;
   display: flex;
- padding: 70px 40px;
+ padding: 70px 97px;
  justify-content: space-between;
- align-items: center;
   .left-container {
     img {
       width: 615px;
@@ -14,7 +13,6 @@
   }
   .right-container {
     h1 {
-        margin-bottom: 16px;
       width: 611px;
       color: #000;
       font-family: Poppins;
@@ -24,8 +22,6 @@
       line-height: 122.5%;
     }
     p {
-        margin-bottom: 16px;
-
       color: #000;
       font-family: Poppins;
       font-size: 20px;
@@ -38,10 +34,7 @@
       height: 58px;
 
       border-radius: 7px;
-      background: #BC8AFC;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      background: rgba(255, 255, 255, 0.4);
     }
     a {
       text-decoration: none;
